@@ -1,0 +1,9 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://example.com/collection.json",
+    "type": "Collection",
+    "label": { "en": [ "Stein Fifteenth of November" ] },
+    "summary": { "en": [ "Gertrude Stein's portrait of T.S. Eliot recorded on January 30, 1935 at Columbia University" ] },
+    "items": [
+    ]
+}
