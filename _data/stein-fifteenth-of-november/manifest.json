@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://ProfMOD.github.io/steinfifteenth/stein-fifteenth-of-november/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Stein Fifteenth of November" ] },
+    "homepage": [
+      {
+        "id": "https://writing.upenn.edu/pennsound/x/Stein.php",
+        "type": "Text",
+        "label": { "en": [ "Stein Fifteenth of November" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://writing.upenn.edu/pennsound/",
+        "type": "Agent",
+        "label": { "en": [ "PennSound" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://ProfMOD.github.io/steinfifteenth/stein-fifteenth-of-november/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 213.0,
+        "items": [
+          {
+            "id": "https://ProfMOD.github.io/steinfifteenth/stein-fifteenth-of-november/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://ProfMOD.github.io/steinfifteenth/stein-fifteenth-of-november/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://media.sas.upenn.edu/pennsound/authors/Stein/Speech-Lab-Recordings/Stein-Gertrude_01_370A_Portrait-Of-TS-Eliot_Speech-Lab-Recordings_New-York_1935.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 213.0
+                },
+                "target": "https://ProfMOD.github.io/steinfifteenth/stein-fifteenth-of-november/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
